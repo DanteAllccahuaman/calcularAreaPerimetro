@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section{
+    width: 100vw;
+    height: 100%;
+    background: rgb(71,145,182);
+background: linear-gradient(90deg, rgba(71,145,182,1) 0%, rgba(24,72,125,1) 100%);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 0;
+}
+
+.container{
+    background-color: white;
+    height: 320px;
+    width: 80%;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.containerStyle{
+    padding-top: 15px;
+    font-size: 15px;
+    
+}
+
+.containerStyle h2{
+    height: 90px;
+}
+
+.containerStyle ul {
+    height: 60px;
+    font-size: 20px;
+}
